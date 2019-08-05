@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A quick little bug</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <script src="https://browser.sentry-cdn.com/5.5.0/bundle.min.js" integrity="sha384-/kLYKYxlMDI1l+lhDHECQrq1Z4fnk/A32MWVF6rRnuE2WiOuAmg3wr3McNOG3Szi" crossorigin="anonymous">
+    </script>
+   
+    <script>
+      Sentry.init({ 
+        dsn: 'https://96f627fb891d4e6ebd32670aeb348509@sentry.io/1456385',
+        release: "135e95cf9ae9b92cb3de8b6df86bdd049b44d550"
+      });
+    </script>
+    
+    <script src="script.js" defer></script>
+  </head>  
+
+  <body>
+
+    <p>🐞🐛🐞🐛🐞🐛🐞</p>
+
+  </body>
+</html>
